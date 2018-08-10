@@ -14,7 +14,7 @@ class Patient
   end 
   
   def new_appointment(doc_name, date) 
-    appointment = Appointment.new()
+    appointment = Appointment.new(date,)
     
   
 end

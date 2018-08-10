@@ -27,5 +27,4 @@ class Doctor
     #binding.pry
     self.appointments.collect {|appointment| appointment.patient}
   end 
-  
 end

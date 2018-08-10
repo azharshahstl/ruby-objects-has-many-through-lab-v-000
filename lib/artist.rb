@@ -29,9 +29,4 @@ class Artist
     #binding.pry
     self.songs.collect {|song| song.genre}
   end
-  
-  
-  
-
-  
 end

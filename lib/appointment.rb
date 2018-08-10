@@ -9,7 +9,7 @@ class Appointment
  def initialize(patient, doctor, date)
    @date = date
    @doctor = doctor 
-   @patient - patient
+   @patient = patient
    @@all << self
    #binding.pry
  end

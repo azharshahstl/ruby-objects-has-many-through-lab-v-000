@@ -23,7 +23,7 @@ class Doctor
     Appointment.all.select {|appointment| appointment.doctor == self}
   end 
   
-  def patients 
+  def patient 
     #binding.pry
     self.appointments.collect {|appointment| appointment.patient}
   end 
